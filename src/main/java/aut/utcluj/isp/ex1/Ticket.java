@@ -10,11 +10,11 @@ public class Ticket {
 
     public Ticket(String customerName, Double price) {
         this.id = String.valueOf(Math.random());
-        throw new UnsupportedOperationException("Not supported yet.");
+
     }
 
     public Ticket(String id, String customerName, Double price) {
-        throw new UnsupportedOperationException("Not supported yet.");
+
     }
 
     public String getId() {
